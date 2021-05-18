@@ -20,7 +20,7 @@ def index():
 
 @app.route('/naver')
 def naver():
-    return '네이버 페이지'
+    return '네이버 페이지' render_template("main-html")
     
 if __name__ == '__main__':
     app.run()
