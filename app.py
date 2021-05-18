@@ -27,7 +27,7 @@ def gonaver():
             return "데이터를 받아주는 페이지" 
         else:
             # 여기 POST로 들어오는 데이터를 받아보자
-            search = Request.form['fname']
+            search = Request.form['lname']
             print("전달된값:", search)
             return "당신이 검색한 키워드(POST)<br>{}".format(search)
 
